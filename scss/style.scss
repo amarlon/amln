@@ -1,0 +1,573 @@
+/*
+ * Material Design for Portefolio
+ * Version: 0.0.0.1
+ *
+ * Author: Anaelmarlon Luzayamo Ngweni
+ * Bachelor degree in computer sciences
+ * Country: US, Michigan city, Grand rapids
+ *
+ * Contact: marlonluzayamo@gmail.com
+ */
+//mixins
+@import "controllers";
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    background: url(../img/src/bg.jpg) no-repeat center center fixed; 
+    @include background-size(cover);
+}
+
+
+h4::selection, h1::selection, h2::selection, b::selection, div::selection, span::selection{
+    @include selector();
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: $width120;
+    background: $mdb-color-darken-4-add;
+    height: $width100;
+    position: fixed;
+    z-index: 4;
+    overflow-x: hidden ;
+    border-right: 1px solid #7ea0af;
+    .view img{
+        cursor: pointer;
+    }
+    a{
+        color: white;
+    }
+    .sidebar-menu-principal{
+        list-style: none;
+        padding: 0 !important;
+        padding-top: 10px;
+        display: block;
+        .slidebar-menu{
+            padding: 10px 0px;
+            text-align: center;
+            border-bottom: 1px solid #7ea0af;
+            a{
+                color: #7ea0af;
+                transition: all 0.5s ease;
+                &:hover{
+                    color: #e0d5d5;
+                }
+                .sliderbar-span{
+                    display: block;
+                }
+                .s-text{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+    .slidebar-name{
+        font-family: $font-display, sans-serif;
+        width: $width100;
+        text-align: center;
+        background: #36615b;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px !important;
+        position: relative;
+        &:before{
+           content: "";
+           width: 0;
+           height: 0;
+           border-left: 7px solid transparent;
+           border-right: 7px solid transparent;
+           border-bottom: 13px solid #36615b;
+           position: absolute;
+           top: -11px;
+           left: 44px;
+        }
+    }
+    .slidebar-bottom{
+        background: #1e232d;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 1px solid #7ea0af;
+        color: #bdb4b4;
+        font-size: 12px !important;
+        text-align: center !important;
+        position: absolute;
+        bottom: 0px;
+    }
+}
+.sidebar-navig{
+    display: none;
+}
+.cursor{
+    cursor: zoom-in !important;
+}
+.img-marlon{
+    height: 500px;
+}
+.close-picture{
+    margin-top: 7px !important;
+    position: absolute;
+}
+.forsinghover:hover{
+    color:white !important;
+}
+
+//content 
+.content{
+    min-height: 100%;
+    height: auto;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    margin-left: $width120;
+    section{
+        @extend .section;
+    }
+   
+    
+    #home{
+        background: rgba(2, 15, 45, 0.51);
+        padding-right:0px;
+        .row{
+             
+             @include paddinginnert();
+             padding-bottom: 40px;
+             margin: 0px !important;
+             .home-left{
+                 text-align: center;
+                 color: white;
+                 position: absolute;
+                 background: rgba(22, 27,74,0.45);
+                 height:$width100;
+                 @include paddinginnert();
+                 .home-left-text{
+                     position: absolute;
+                     bottom: 133px;
+                     width: $width100;
+                     div{
+                         width: fit-content;
+                         margin: 0 auto;
+                         &:nth-child(){
+                              line-height: 1.2;
+                              display: block;
+                              font-family: "Montserrat", serif;
+                         }
+                         h4{
+                                 font-size: 1.1em;
+                                 letter-spacing: 0px;
+                         }
+                         h2{
+                              font-family: "Montserrat", serif;
+                              font-size:  2.8em;
+                              transform-style: preserve-3d;
+                              font-weight: bold;
+                              letter-spacing: -2px;
+                              text-shadow: -1px 3px 2px rgba(150, 191, 204, 1);
+                          }
+                          
+                     }
+                     
+                 }
+                
+             }
+            
+        }
+        #homeBottom{
+            position: absolute;
+            bottom: 90px;
+            text-align: center;
+            width: 100%;
+            #homeBottom-onebyone{
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .15em; /* Adjust as needed */
+                text-transform: unset;
+                color: white;
+                font-size: 18px;
+                text-shadow: 2px 2px 6px #7dc8e8;
+                animation: 
+                typing 7.5s steps(50, end) infinite,
+
+    
+            }
+            /* The typing effect */
+           @keyframes typing {
+             from { width: 0 }
+             to { width: 80% }
+             
+           }
+        }
+       
+
+    }
+    #aboutme{
+        background: #fff;
+        //background: #fafafa;
+        .aboutmeHeader{
+            background: rgb(62, 61, 61);
+            width: 100%;
+            height: 60px;
+           
+        }
+        .aboutmeSession{
+            text-align:center;
+            min-height: 150px;
+            width: 100%;
+            background: #fff;
+            padding-top:20px;
+            span{
+                color: rgb(123, 121, 121);
+            }
+            h1{
+                color: #7b7979;
+                font-size: 3.3em;
+                font-weight: bold;
+            }
+            h1::before{
+                content: "";
+                width: 17px;
+                height: 3px;
+                background: #7b7979;
+                position: absolute;
+                margin-left: -23px;
+                margin-top: 30px;
+            }
+            h1::after{
+                content: "";
+                width: 17px;
+                height: 3px;
+                background: #7b7979;
+                position: absolute;
+                margin-left: 9px;
+                margin-top: 30px;
+            }
+            div{
+                width: 80%;
+                margin: 40px auto;
+                line-height: 1.5;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1em;
+                text-align: justify
+            }
+            div::selection {
+                text-shadow: none;
+                color: #333;
+                background: #FFFFCF;
+            }
+        }
+        .aboutmeHeader2{
+            background:rgba(242,242,242,0.7);
+            width: 100%;
+            min-height: 15%;
+            position: relative;
+            border-top: 1px solid #ecebebd6;
+
+            .aboutmeHeader2Title{
+                text-align: center;
+                padding:50px 0px 10px 0px;
+                #aboutmeHeader2TitleDiv{
+                    background: #98900d;
+                    font-family: "Montserrat", serif;
+                    padding: .8em 3em;
+                    font-style: normal;
+                    color: #fff;
+                    font-size: 11px;
+                    font-weight: normal;
+                    letter-spacing: 0.2em;
+                    position: relative;
+                    z-index: 2;
+                    border-left: .8px solid rgba(123, 117, 17, 0.69);
+                    border-right: .8px solid rgba(123, 117, 17, 0.69);
+                }
+                #aboutmeHeader2TitleDiv::before{
+                    content: "";
+                    top: -.5em;
+                    left: -1.57em;
+                    z-index: -1;
+                    display: block;
+                    position: absolute;
+                    bottom: -.5em;
+                    width: 2em;
+                    height: 100%;
+                    background-color: rgb(145, 136,0);
+                    pointer-events: none;
+                   
+                }
+                #aboutmeHeader2TitleDiv::after{
+                  content: " ";
+                  display: block;
+                  position: absolute;
+                  bottom: -.5em;
+                  width: 2em;
+                  height: 100%;
+                  background-color: rgb(145, 136,0);
+                  pointer-events: none;
+                  right: -1.57em;
+                  z-index: -1;
+                 
+                }
+            }
+            .aboutmeHeader2Session2{
+              margin-top: 40px;
+            }
+            .aboutmeHeaderFooter{
+                padding: 40px 10px 50px 30px;
+            }
+        }
+    }
+    /////////////////******************************//////////////
+    ////          class add aboutme                         ////
+    /////////////////******************************////////////
+
+    .span::before{
+        content: '';
+        bottom: auto;
+        top: -6px;
+        border-bottom: 0.5em solid rgba(8, 11, 12, 0.2);
+        border-left: .5em solid transparent;
+        position: absolute;
+        left: 0px;
+    }
+    .span::after{
+        content: '';
+        bottom: -6px;
+        border-top: 0.5em solid rgba(8, 11, 12, 0.2);
+        border-right: .5em solid transparent;
+        position: absolute;
+        right: 0px;
+    }
+    .bottom20{
+        @include bottom(20px);
+        text-align: center;
+    }
+    .aboutmeHeader2FirstChild{
+        
+        img{
+            width: 90px;
+            height: 90px;
+    
+        }
+    }
+    .aboutmeHeader2SecondChild {
+        
+        text-transform: uppercase;
+        font-family: "Montserrat", serif;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+        h4{
+            font-size: 12px;
+            letter-spacing: 0.1em;
+            font-weight: 900;
+            color: black;
+            font-family: "Montserrat", serif;
+            text-shadow: 0px 0px 1px #000102;
+           
+        }
+    }
+    .aboutmeUl{
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 44px auto;
+        li{
+            list-style: none;
+            height:110px;
+            background: white;
+            width: 110px; 
+            text-align: center;
+            margin-right: 70px;
+            margin-bottom:20px ;
+            border-radius: 0px 20px 20px 20px;
+            padding: 10px;
+            span{
+                text-align: center;
+                font-size: 10px;
+                font-family: "Montserrat", serif;
+                line-height: 1.45;
+                img{
+                    width: 60px;
+                    height: 60px;
+                  
+                }
+            }
+            
+        }
+        li::after{
+            content: "";
+            width: 70px;
+            height: 2px;
+            position: absolute;
+            margin-left: 28px;
+            margin-top: -16px;
+            background:white;
+            box-shadow: 0 2px 0 0 #d7d8db, 0 0 0 0px #e3e4e8;
+            
+        }
+        li:last-child::after{
+            content:"";
+            width: 0px !important;
+            height: 0px !important;
+        }
+        li:nth-child(3)::after {
+            margin-left: 35px;
+        }
+        li:nth-child(4)::after {
+            margin-left: 30px;
+        }
+        li:nth-child(5)::after {
+            margin-left: 42px;
+        }
+    }
+   
+    .aboutmeHeader2ThirdChild{
+        font-size: 14px;
+        line-height: 1.45;
+        color: rgba(28, 38, 43, 0.5);
+        font-weight: 350;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #resume{
+        background: rgb(28, 152, 152);
+    }
+    #portefolio{
+        background: red;
+    }
+    #contact{
+        background: green;
+    }
+    #myproject{
+        background: yellow;
+    }
+    
+    .cup{
+        margin-bottom:10px !important;
+        .row{
+            div{
+                color:rgba(108, 117, 125,1);
+                b{
+                    font-size: 12px;
+                    
+                }
+            }
+            .chan{
+                line-height: 95%;
+                font-weight: bold;
+            }
+            .cupHeader{
+                text-align: right;
+                padding: 0px
+
+            }
+        }
+    }
+    .speciale{
+        font-size:24px
+    }
+    
+    
+}
+@media screen and (max-width: 1239px){
+    .aboutmeUl{
+        li::after{
+            display:none;
+        }
+    }
+}
+//change the width 700
+@media screen and (max-width: 700px){
+    //sidebar
+    .sidebar{
+        width: $width100;
+        height: auto;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: sticky;
+        @include box-shadow(0 3px 7px -2px #ccc);
+        a{
+            float: left;
+        }
+        .img-av{
+            padding-bottom: 5px !important;
+            padding-left: 5px !important;
+        }
+        .view img{
+            width: 33px !important;
+            height: 33px !important;
+         }
+         .slidebar-name{
+             display: none !important;
+         }
+        .sidebar-menu-principal{
+            display: none;
+            padding-bottom: 0;
+            .slidebar-menu{
+                  text-align: center;
+                  a{
+                      text-align: center;
+                      float:none;
+                      color: #bdb4b4;
+                      transition: all 0.5s ease;
+                      .sliderbar-span{
+                         display: inline-block;
+                      }
+                  }
+                  &:last-child{
+                      border-bottom: none !important;
+                  }
+                  &:hover{
+                          color: #e0d5d5 !important;
+                  }
+            }
+         }
+        .slidebar-bottom{
+            display: none !important;
+        }
+    }
+    .cursor{
+        display: none;
+    }
+    // 
+    .sidebar-navig{
+            display: block !important;
+            position: fixed;
+            top: 13px;
+            right: 18px;
+            color: #a6aab1;
+            z-index: 10000;
+            font-size: 23px;
+            cursor: pointer;  
+    }
+
+    //content
+    .content{
+        margin-left:0;
+    }
+    .aboutmeUl{
+        li{
+            margin-right: 48px !important;
+        }
+    }
+    #name{
+        font-size: 2.1em !important;
+    }
+    .home-left-text {
+        position: relative !important;
+        top: 150px;
+    }
+}
+//change the width 700
+@media screen and (max-width: 400px){
+    //
+    .sidebar a{
+        float:none;
+    }
+}

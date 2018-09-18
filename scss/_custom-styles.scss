@@ -1,0 +1,36 @@
+// for mixing
+@mixin background-size($size){
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -o-background-size: $size;
+    background-size: $size;
+}
+@mixin box-shadow($property){
+    -moz-box-shadow:    $property;
+    -webkit-box-shadow: $property;
+    box-shadow:         $property;
+}
+.section{
+    width: $width100;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+ 
+}
+@mixin paddinginnert(){
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@mixin bottom($attr){
+    margin-bottom : $attr;
+}
+@mixin colomn($attr){
+    -webkit-column-count: $attr; /* Chrome, Safari, Opera */
+    -moz-column-count: $attr; /* Firefox */
+    column-count: $attr;
+}
+@mixin selector(){
+    text-shadow: none;
+    background: #FFFFCF;
+}

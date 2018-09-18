@@ -1,0 +1,2678 @@
+/*
+ * Material Design for Portefolio
+ * Version: 0.0.0.1
+ *
+ * Author: Anaelmarlon Luzayamo Ngweni
+ * Bachelor degree in computer sciences
+ * Country: US, Michigan city, Grand rapids
+ *
+ * Contact: marlonluzayamo@gmail.com
+ */
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.lighten-5 {
+  background-color: #d0d6e2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.lighten-4 {
+  background-color: #b1bace !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.lighten-3 {
+  background-color: #929fba !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.lighten-2 {
+  background-color: #7283a7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.lighten-1 {
+  background-color: #59698d !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color {
+  background-color: #45526e !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color-text {
+  color: #45526e !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-mdb-color-slight,
+.rgba-mdb-color-slight:after {
+  background-color: rgba(69, 82, 110, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-mdb-color-light,
+.rgba-mdb-color-light:after {
+  background-color: rgba(69, 82, 110, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-mdb-color-strong,
+.rgba-mdb-color-strong:after {
+  background-color: rgba(69, 82, 110, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.darken-1 {
+  background-color: #3b465e !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.darken-2 {
+  background-color: #2e3951 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.darken-3 {
+  background-color: #1c2a48 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.mdb-color.darken-4 {
+  background-color: #1c2331 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.lighten-5 {
+  background-color: #ffebee !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.lighten-4 {
+  background-color: #ffcdd2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.lighten-3 {
+  background-color: #ef9a9a !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.lighten-2 {
+  background-color: #e57373 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.lighten-1 {
+  background-color: #ef5350 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red {
+  background-color: #f44336 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red-text {
+  color: #f44336 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-red-slight,
+.rgba-red-slight:after {
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-red-light,
+.rgba-red-light:after {
+  background-color: rgba(244, 67, 54, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-red-strong,
+.rgba-red-strong:after {
+  background-color: rgba(244, 67, 54, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.darken-1 {
+  background-color: #e53935 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.darken-2 {
+  background-color: #d32f2f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.darken-3 {
+  background-color: #c62828 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.darken-4 {
+  background-color: #b71c1c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.accent-1 {
+  background-color: #ff8a80 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.accent-2 {
+  background-color: #ff5252 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.accent-3 {
+  background-color: #ff1744 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.red.accent-4 {
+  background-color: #d50000 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.lighten-5 {
+  background-color: #fce4ec !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.lighten-4 {
+  background-color: #f8bbd0 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.lighten-3 {
+  background-color: #f48fb1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.lighten-2 {
+  background-color: #f06292 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.lighten-1 {
+  background-color: #ec407a !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink {
+  background-color: #e91e63 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink-text {
+  color: #e91e63 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-pink-slight,
+.rgba-pink-slight:after {
+  background-color: rgba(233, 30, 99, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-pink-light,
+.rgba-pink-light:after {
+  background-color: rgba(233, 30, 99, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-pink-strong,
+.rgba-pink-strong:after {
+  background-color: rgba(233, 30, 99, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.darken-1 {
+  background-color: #d81b60 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.darken-2 {
+  background-color: #c2185b !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.darken-3 {
+  background-color: #ad1457 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.darken-4 {
+  background-color: #880e4f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.accent-1 {
+  background-color: #ff80ab !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.accent-2 {
+  background-color: #ff4081 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.accent-3 {
+  background-color: #f50057 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.pink.accent-4 {
+  background-color: #c51162 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.lighten-5 {
+  background-color: #f3e5f5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.lighten-4 {
+  background-color: #e1bee7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.lighten-3 {
+  background-color: #ce93d8 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.lighten-2 {
+  background-color: #ba68c8 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.lighten-1 {
+  background-color: #ab47bc !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple {
+  background-color: #9c27b0 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple-text {
+  color: #9c27b0 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-purple-slight,
+.rgba-purple-slight:after {
+  background-color: rgba(156, 39, 176, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-purple-light,
+.rgba-purple-light:after {
+  background-color: rgba(156, 39, 176, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-purple-strong,
+.rgba-purple-strong:after {
+  background-color: rgba(156, 39, 176, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.darken-1 {
+  background-color: #8e24aa !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.darken-2 {
+  background-color: #7b1fa2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.darken-3 {
+  background-color: #6a1b9a !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.darken-4 {
+  background-color: #4a148c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.accent-1 {
+  background-color: #ea80fc !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.accent-2 {
+  background-color: #e040fb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.accent-3 {
+  background-color: #d500f9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.purple.accent-4 {
+  background-color: #aa00ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.lighten-5 {
+  background-color: #ede7f6 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.lighten-4 {
+  background-color: #d1c4e9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.lighten-3 {
+  background-color: #b39ddb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.lighten-2 {
+  background-color: #9575cd !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.lighten-1 {
+  background-color: #7e57c2 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple {
+  background-color: #673ab7 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple-text {
+  color: #673ab7 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-purple-slight,
+.rgba-deep-purple-slight:after {
+  background-color: rgba(103, 58, 183, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-purple-light,
+.rgba-deep-purple-light:after {
+  background-color: rgba(103, 58, 183, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-purple-strong,
+.rgba-deep-purple-strong:after {
+  background-color: rgba(103, 58, 183, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.darken-1 {
+  background-color: #5e35b1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.darken-2 {
+  background-color: #512da8 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.darken-3 {
+  background-color: #4527a0 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.darken-4 {
+  background-color: #311b92 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.accent-1 {
+  background-color: #b388ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.accent-2 {
+  background-color: #7c4dff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.accent-3 {
+  background-color: #651fff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-purple.accent-4 {
+  background-color: #6200ea !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.lighten-5 {
+  background-color: #e8eaf6 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.lighten-4 {
+  background-color: #c5cae9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.lighten-3 {
+  background-color: #9fa8da !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.lighten-2 {
+  background-color: #7986cb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.lighten-1 {
+  background-color: #5c6bc0 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo {
+  background-color: #3f51b5 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo-text {
+  color: #3f51b5 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-indigo-slight,
+.rgba-indigo-slight:after {
+  background-color: rgba(63, 81, 181, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-indigo-light,
+.rgba-indigo-light:after {
+  background-color: rgba(63, 81, 181, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-indigo-strong,
+.rgba-indigo-strong:after {
+  background-color: rgba(63, 81, 181, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.darken-1 {
+  background-color: #3949ab !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.darken-2 {
+  background-color: #303f9f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.darken-3 {
+  background-color: #283593 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.darken-4 {
+  background-color: #1a237e !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.accent-1 {
+  background-color: #8c9eff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.accent-2 {
+  background-color: #536dfe !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.accent-3 {
+  background-color: #3d5afe !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.indigo.accent-4 {
+  background-color: #304ffe !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.lighten-5 {
+  background-color: #e3f2fd !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.lighten-4 {
+  background-color: #bbdefb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.lighten-3 {
+  background-color: #90caf9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.lighten-2 {
+  background-color: #64b5f6 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.lighten-1 {
+  background-color: #42a5f5 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue {
+  background-color: #2196f3 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-text {
+  color: #2196f3 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-slight,
+.rgba-blue-slight:after {
+  background-color: rgba(33, 150, 243, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-light,
+.rgba-blue-light:after {
+  background-color: rgba(33, 150, 243, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-strong,
+.rgba-blue-strong:after {
+  background-color: rgba(33, 150, 243, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.darken-1 {
+  background-color: #1e88e5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.darken-2 {
+  background-color: #1976d2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.darken-3 {
+  background-color: #1565c0 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.darken-4 {
+  background-color: #0d47a1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.accent-1 {
+  background-color: #82b1ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.accent-2 {
+  background-color: #448aff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.accent-3 {
+  background-color: #2979ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue.accent-4 {
+  background-color: #2962ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.lighten-5 {
+  background-color: #e1f5fe !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.lighten-4 {
+  background-color: #b3e5fc !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.lighten-3 {
+  background-color: #81d4fa !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.lighten-2 {
+  background-color: #4fc3f7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.lighten-1 {
+  background-color: #29b6f6 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue {
+  background-color: #03a9f4 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue-text {
+  color: #03a9f4 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-blue-slight,
+.rgba-light-blue-slight:after {
+  background-color: rgba(3, 169, 244, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-blue-light,
+.rgba-light-blue-light:after {
+  background-color: rgba(3, 169, 244, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-blue-strong,
+.rgba-light-blue-strong:after {
+  background-color: rgba(3, 169, 244, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.darken-1 {
+  background-color: #039be5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.darken-2 {
+  background-color: #0288d1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.darken-3 {
+  background-color: #0277bd !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.darken-4 {
+  background-color: #01579b !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.accent-1 {
+  background-color: #80d8ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.accent-2 {
+  background-color: #40c4ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.accent-3 {
+  background-color: #00b0ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-blue.accent-4 {
+  background-color: #0091ea !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.lighten-5 {
+  background-color: #e0f7fa !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.lighten-4 {
+  background-color: #b2ebf2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.lighten-3 {
+  background-color: #80deea !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.lighten-2 {
+  background-color: #4dd0e1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.lighten-1 {
+  background-color: #26c6da !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan {
+  background-color: #00bcd4 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan-text {
+  color: #00bcd4 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-cyan-slight,
+.rgba-cyan-slight:after {
+  background-color: rgba(0, 188, 212, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-cyan-light,
+.rgba-cyan-light:after {
+  background-color: rgba(0, 188, 212, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-cyan-strong,
+.rgba-cyan-strong:after {
+  background-color: rgba(0, 188, 212, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.darken-1 {
+  background-color: #00acc1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.darken-2 {
+  background-color: #0097a7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.darken-3 {
+  background-color: #00838f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.darken-4 {
+  background-color: #006064 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.accent-1 {
+  background-color: #84ffff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.accent-2 {
+  background-color: #18ffff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.accent-3 {
+  background-color: #00e5ff !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.cyan.accent-4 {
+  background-color: #00b8d4 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.lighten-5 {
+  background-color: #e0f2f1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.lighten-4 {
+  background-color: #b2dfdb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.lighten-3 {
+  background-color: #80cbc4 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.lighten-2 {
+  background-color: #4db6ac !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.lighten-1 {
+  background-color: #26a69a !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal {
+  background-color: #009688 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal-text {
+  color: #009688 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-teal-slight,
+.rgba-teal-slight:after {
+  background-color: rgba(0, 150, 136, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-teal-light,
+.rgba-teal-light:after {
+  background-color: rgba(0, 150, 136, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-teal-strong,
+.rgba-teal-strong:after {
+  background-color: rgba(0, 150, 136, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.darken-1 {
+  background-color: #00897b !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.darken-2 {
+  background-color: #00796b !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.darken-3 {
+  background-color: #00695c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.darken-4 {
+  background-color: #004d40 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.accent-1 {
+  background-color: #a7ffeb !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.accent-2 {
+  background-color: #64ffda !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.accent-3 {
+  background-color: #1de9b6 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.teal.accent-4 {
+  background-color: #00bfa5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.lighten-5 {
+  background-color: #e8f5e9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.lighten-4 {
+  background-color: #c8e6c9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.lighten-3 {
+  background-color: #a5d6a7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.lighten-2 {
+  background-color: #81c784 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.lighten-1 {
+  background-color: #66bb6a !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green {
+  background-color: #4caf50 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green-text {
+  color: #4caf50 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-green-slight,
+.rgba-green-slight:after {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-green-light,
+.rgba-green-light:after {
+  background-color: rgba(76, 175, 80, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-green-strong,
+.rgba-green-strong:after {
+  background-color: rgba(76, 175, 80, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.darken-1 {
+  background-color: #43a047 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.darken-2 {
+  background-color: #388e3c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.darken-3 {
+  background-color: #2e7d32 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.darken-4 {
+  background-color: #1b5e20 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.accent-1 {
+  background-color: #b9f6ca !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.accent-2 {
+  background-color: #69f0ae !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.accent-3 {
+  background-color: #00e676 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.green.accent-4 {
+  background-color: #00c853 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.lighten-5 {
+  background-color: #f1f8e9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.lighten-4 {
+  background-color: #dcedc8 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.lighten-3 {
+  background-color: #c5e1a5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.lighten-2 {
+  background-color: #aed581 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.lighten-1 {
+  background-color: #9ccc65 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green {
+  background-color: #8bc34a !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green-text {
+  color: #8bc34a !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-green-slight,
+.rgba-light-green-slight:after {
+  background-color: rgba(139, 195, 74, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-green-light,
+.rgba-light-green-light:after {
+  background-color: rgba(139, 195, 74, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-light-green-strong,
+.rgba-light-green-strong:after {
+  background-color: rgba(139, 195, 74, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.darken-1 {
+  background-color: #7cb342 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.darken-2 {
+  background-color: #689f38 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.darken-3 {
+  background-color: #558b2f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.darken-4 {
+  background-color: #33691e !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.accent-1 {
+  background-color: #ccff90 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.accent-2 {
+  background-color: #b2ff59 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.accent-3 {
+  background-color: #76ff03 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.light-green.accent-4 {
+  background-color: #64dd17 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.lighten-5 {
+  background-color: #f9fbe7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.lighten-4 {
+  background-color: #f0f4c3 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.lighten-3 {
+  background-color: #e6ee9c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.lighten-2 {
+  background-color: #dce775 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.lighten-1 {
+  background-color: #d4e157 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime {
+  background-color: #cddc39 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime-text {
+  color: #cddc39 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-lime-slight,
+.rgba-lime-slight:after {
+  background-color: rgba(205, 220, 57, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-lime-light,
+.rgba-lime-light:after {
+  background-color: rgba(205, 220, 57, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-lime-strong,
+.rgba-lime-strong:after {
+  background-color: rgba(205, 220, 57, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.darken-1 {
+  background-color: #c0ca33 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.darken-2 {
+  background-color: #afb42b !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.darken-3 {
+  background-color: #9e9d24 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.darken-4 {
+  background-color: #827717 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.accent-1 {
+  background-color: #f4ff81 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.accent-2 {
+  background-color: #eeff41 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.accent-3 {
+  background-color: #c6ff00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.lime.accent-4 {
+  background-color: #aeea00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.lighten-5 {
+  background-color: #fffde7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.lighten-4 {
+  background-color: #fff9c4 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.lighten-3 {
+  background-color: #fff59d !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.lighten-2 {
+  background-color: #fff176 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.lighten-1 {
+  background-color: #ffee58 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow {
+  background-color: #ffeb3b !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow-text {
+  color: #ffeb3b !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-yellow-slight,
+.rgba-yellow-slight:after {
+  background-color: rgba(255, 235, 59, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-yellow-light,
+.rgba-yellow-light:after {
+  background-color: rgba(255, 235, 59, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-yellow-strong,
+.rgba-yellow-strong:after {
+  background-color: rgba(255, 235, 59, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.darken-1 {
+  background-color: #fdd835 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.darken-2 {
+  background-color: #fbc02d !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.darken-3 {
+  background-color: #f9a825 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.darken-4 {
+  background-color: #f57f17 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.accent-1 {
+  background-color: #ffff8d !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.accent-2 {
+  background-color: #ffff00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.accent-3 {
+  background-color: #ffea00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.yellow.accent-4 {
+  background-color: #ffd600 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.lighten-5 {
+  background-color: #fff8e1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.lighten-4 {
+  background-color: #ffecb3 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.lighten-3 {
+  background-color: #ffe082 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.lighten-2 {
+  background-color: #ffd54f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.lighten-1 {
+  background-color: #ffca28 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber {
+  background-color: #ffc107 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber-text {
+  color: #ffc107 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-amber-slight,
+.rgba-amber-slight:after {
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-amber-light,
+.rgba-amber-light:after {
+  background-color: rgba(255, 193, 7, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-amber-strong,
+.rgba-amber-strong:after {
+  background-color: rgba(255, 193, 7, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.darken-1 {
+  background-color: #ffb300 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.darken-2 {
+  background-color: #ffa000 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.darken-3 {
+  background-color: #ff8f00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.darken-4 {
+  background-color: #ff6f00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.accent-1 {
+  background-color: #ffe57f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.accent-2 {
+  background-color: #ffd740 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.accent-3 {
+  background-color: #ffc400 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.amber.accent-4 {
+  background-color: #ffab00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.lighten-5 {
+  background-color: #fff3e0 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.lighten-4 {
+  background-color: #ffe0b2 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.lighten-3 {
+  background-color: #ffcc80 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.lighten-2 {
+  background-color: #ffb74d !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.lighten-1 {
+  background-color: #ffa726 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange {
+  background-color: #ff9800 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange-text {
+  color: #ff9800 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-orange-slight,
+.rgba-orange-slight:after {
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-orange-light,
+.rgba-orange-light:after {
+  background-color: rgba(255, 152, 0, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-orange-strong,
+.rgba-orange-strong:after {
+  background-color: rgba(255, 152, 0, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.darken-1 {
+  background-color: #fb8c00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.darken-2 {
+  background-color: #f57c00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.darken-3 {
+  background-color: #ef6c00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.darken-4 {
+  background-color: #e65100 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.accent-1 {
+  background-color: #ffd180 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.accent-2 {
+  background-color: #ffab40 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.accent-3 {
+  background-color: #ff9100 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.orange.accent-4 {
+  background-color: #ff6d00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.lighten-5 {
+  background-color: #fbe9e7 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.lighten-4 {
+  background-color: #ffccbc !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.lighten-3 {
+  background-color: #ffab91 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.lighten-2 {
+  background-color: #ff8a65 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.lighten-1 {
+  background-color: #ff7043 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange {
+  background-color: #ff5722 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange-text {
+  color: #ff5722 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-orange-slight,
+.rgba-deep-orange-slight:after {
+  background-color: rgba(255, 87, 34, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-orange-light,
+.rgba-deep-orange-light:after {
+  background-color: rgba(255, 87, 34, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-deep-orange-strong,
+.rgba-deep-orange-strong:after {
+  background-color: rgba(255, 87, 34, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.darken-1 {
+  background-color: #f4511e !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.darken-2 {
+  background-color: #e64a19 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.darken-3 {
+  background-color: #d84315 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.darken-4 {
+  background-color: #bf360c !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.accent-1 {
+  background-color: #ff9e80 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.accent-2 {
+  background-color: #ff6e40 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.accent-3 {
+  background-color: #ff3d00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.deep-orange.accent-4 {
+  background-color: #dd2c00 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.lighten-5 {
+  background-color: #efebe9 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.lighten-4 {
+  background-color: #d7ccc8 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.lighten-3 {
+  background-color: #bcaaa4 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.lighten-2 {
+  background-color: #a1887f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.lighten-1 {
+  background-color: #8d6e63 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown {
+  background-color: #795548 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown-text {
+  color: #795548 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-brown-slight,
+.rgba-brown-slight:after {
+  background-color: rgba(121, 85, 72, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-brown-light,
+.rgba-brown-light:after {
+  background-color: rgba(121, 85, 72, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-brown-strong,
+.rgba-brown-strong:after {
+  background-color: rgba(121, 85, 72, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.darken-1 {
+  background-color: #6d4c41 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.darken-2 {
+  background-color: #5d4037 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.darken-3 {
+  background-color: #4e342e !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.brown.darken-4 {
+  background-color: #3e2723 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.lighten-5 {
+  background-color: #eceff1 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.lighten-4 {
+  background-color: #cfd8dc !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.lighten-3 {
+  background-color: #b0bec5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.lighten-2 {
+  background-color: #90a4ae !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.lighten-1 {
+  background-color: #78909c !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey {
+  background-color: #607d8b !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey-text {
+  color: #607d8b !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-grey-slight,
+.rgba-blue-grey-slight:after {
+  background-color: rgba(96, 125, 139, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-grey-light,
+.rgba-blue-grey-light:after {
+  background-color: rgba(96, 125, 139, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-blue-grey-strong,
+.rgba-blue-grey-strong:after {
+  background-color: rgba(96, 125, 139, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.darken-1 {
+  background-color: #546e7a !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.darken-2 {
+  background-color: #455a64 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.darken-3 {
+  background-color: #37474f !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.blue-grey.darken-4 {
+  background-color: #263238 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.lighten-5 {
+  background-color: #fafafa !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.lighten-4 {
+  background-color: #f5f5f5 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.lighten-3 {
+  background-color: #eeeeee !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.lighten-2 {
+  background-color: #e0e0e0 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.lighten-1 {
+  background-color: #bdbdbd !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey {
+  background-color: #9e9e9e !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey-text {
+  color: #9e9e9e !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-grey-slight,
+.rgba-grey-slight:after {
+  background-color: rgba(158, 158, 158, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-grey-light,
+.rgba-grey-light:after {
+  background-color: rgba(158, 158, 158, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-grey-strong,
+.rgba-grey-strong:after {
+  background-color: rgba(158, 158, 158, 0.7);
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.darken-1 {
+  background-color: #757575 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.darken-2 {
+  background-color: #616161 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.darken-3 {
+  background-color: #424242 !important;
+}
+
+/* line 629, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.grey.darken-4 {
+  background-color: #212121 !important;
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.black {
+  background-color: #000 !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.black-text {
+  color: #000 !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-black-slight,
+.rgba-black-slight:after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-black-light,
+.rgba-black-light:after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-black-strong,
+.rgba-black-strong:after {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 611, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.white {
+  background-color: #fff !important;
+}
+
+/* line 614, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.white-text {
+  color: #fff !important;
+}
+
+/* line 617, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-white-slight,
+.rgba-white-slight:after {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 620, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-white-light,
+.rgba-white-light:after {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 623, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-white-strong,
+.rgba-white-strong:after {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 645, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-stylish-slight {
+  background-color: rgba(62, 69, 81, 0.1);
+}
+
+/* line 645, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-stylish-light {
+  background-color: rgba(62, 69, 81, 0.3);
+}
+
+/* line 645, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.rgba-stylish-strong {
+  background-color: rgba(62, 69, 81, 0.7);
+}
+
+/* line 650, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.dark-grey-text {
+  color: #4f4f4f !important;
+}
+
+/* line 652, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.dark-grey-text:hover, .dark-grey-text:focus {
+  color: #4f4f4f !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.primary-color {
+  background-color: #4285f4 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.primary-color-dark {
+  background-color: #0d47a1 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.secondary-color {
+  background-color: #aa66cc !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.secondary-color-dark {
+  background-color: #9933cc !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.default-color {
+  background-color: #2bbbad !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.default-color-dark {
+  background-color: #00695c !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.info-color {
+  background-color: #33b5e5 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.info-color-dark {
+  background-color: #0099cc !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.success-color {
+  background-color: #00c851 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.success-color-dark {
+  background-color: #007e33 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.warning-color {
+  background-color: #ffbb33 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.warning-color-dark {
+  background-color: #ff8800 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.danger-color {
+  background-color: #ff3547 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.danger-color-dark {
+  background-color: #cc0000 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.elegant-color {
+  background-color: #2e2e2e !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.elegant-color-dark {
+  background-color: #212121 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.stylish-color {
+  background-color: #4b515d !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.stylish-color-dark {
+  background-color: #3e4551 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.unique-color {
+  background-color: #3f729b !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.unique-color-dark {
+  background-color: #1c2331 !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.special-color {
+  background-color: #37474f !important;
+}
+
+/* line 712, /Applications/MAMP/htdocs/aln/scss/core/_colors.scss */
+.special-color-dark {
+  background-color: #263238 !important;
+}
+
+/* line 13, /Applications/MAMP/htdocs/aln/scss/_custom-styles.scss */
+.section, .content section {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  position: relative;
+}
+
+/* line 13, /Applications/MAMP/htdocs/aln/scss/style.scss */
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  background: url(../img/src/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 22, /Applications/MAMP/htdocs/aln/scss/style.scss */
+h4::selection, h1::selection, h2::selection, b::selection, div::selection, span::selection {
+  text-shadow: none;
+  background: #FFFFCF;
+}
+
+/* line 25, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background: rgba(28, 35, 49, 0.75);
+  height: 100%;
+  position: fixed;
+  z-index: 4;
+  overflow-x: hidden;
+  border-right: 1px solid #7ea0af;
+}
+
+/* line 35, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .view img {
+  cursor: pointer;
+}
+
+/* line 38, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar a {
+  color: white;
+}
+
+/* line 41, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal {
+  list-style: none;
+  padding: 0 !important;
+  padding-top: 10px;
+  display: block;
+}
+
+/* line 46, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal .slidebar-menu {
+  padding: 10px 0px;
+  text-align: center;
+  border-bottom: 1px solid #7ea0af;
+}
+
+/* line 50, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal .slidebar-menu a {
+  color: #7ea0af;
+  transition: all 0.5s ease;
+}
+
+/* line 53, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal .slidebar-menu a:hover {
+  color: #e0d5d5;
+}
+
+/* line 56, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal .slidebar-menu a .sliderbar-span {
+  display: block;
+}
+
+/* line 59, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .sidebar-menu-principal .slidebar-menu a .s-text {
+  font-size: 10px !important;
+}
+
+/* line 65, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .slidebar-name {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  text-align: center;
+  background: #36615b;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px !important;
+  position: relative;
+}
+
+/* line 75, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .slidebar-name:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 13px solid #36615b;
+  position: absolute;
+  top: -11px;
+  left: 44px;
+}
+
+/* line 87, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar .slidebar-bottom {
+  background: #1e232d;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #7ea0af;
+  color: #bdb4b4;
+  font-size: 12px !important;
+  text-align: center !important;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* line 100, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.sidebar-navig {
+  display: none;
+}
+
+/* line 103, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.cursor {
+  cursor: zoom-in !important;
+}
+
+/* line 106, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.img-marlon {
+  height: 500px;
+}
+
+/* line 109, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.close-picture {
+  margin-top: 7px !important;
+  position: absolute;
+}
+
+/* line 113, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.forsinghover:hover {
+  color: white !important;
+}
+
+/* line 118, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content {
+  min-height: 100%;
+  height: auto;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+  margin-left: 120px;
+}
+
+/* line 129, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home {
+  background: rgba(2, 15, 45, 0.51);
+  padding-right: 0px;
+}
+
+/* line 132, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin: 0px !important;
+}
+
+/* line 137, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left {
+  text-align: center;
+  color: white;
+  position: absolute;
+  background: rgba(22, 27, 74, 0.45);
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 144, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left .home-left-text {
+  position: absolute;
+  bottom: 133px;
+  width: 100%;
+}
+
+/* line 148, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left .home-left-text div {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* line 151, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left .home-left-text div:nth-child {
+  line-height: 1.2;
+  display: block;
+  font-family: "Montserrat", serif;
+}
+
+/* line 156, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left .home-left-text div h4 {
+  font-size: 1.1em;
+  letter-spacing: 0px;
+}
+
+/* line 160, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home .row .home-left .home-left-text div h2 {
+  font-family: "Montserrat", serif;
+  font-size: 2.8em;
+  transform-style: preserve-3d;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-shadow: -1px 3px 2px #96bfcc;
+}
+
+/* line 176, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home #homeBottom {
+  position: absolute;
+  bottom: 90px;
+  text-align: center;
+  width: 100%;
+  /* The typing effect */
+}
+
+/* line 181, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #home #homeBottom #homeBottom-onebyone {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  text-transform: unset;
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 6px #7dc8e8;
+  animation: typing 7.5s steps(50, end) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+/* line 205, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme {
+  background: #fff;
+}
+
+/* line 208, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader {
+  background: #3e3d3d;
+  width: 100%;
+  height: 60px;
+}
+
+/* line 214, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession {
+  text-align: center;
+  min-height: 150px;
+  width: 100%;
+  background: #fff;
+  padding-top: 20px;
+}
+
+/* line 220, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession span {
+  color: #7b7979;
+}
+
+/* line 223, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession h1 {
+  color: #7b7979;
+  font-size: 3.3em;
+  font-weight: bold;
+}
+
+/* line 228, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession h1::before {
+  content: "";
+  width: 17px;
+  height: 3px;
+  background: #7b7979;
+  position: absolute;
+  margin-left: -23px;
+  margin-top: 30px;
+}
+
+/* line 237, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession h1::after {
+  content: "";
+  width: 17px;
+  height: 3px;
+  background: #7b7979;
+  position: absolute;
+  margin-left: 9px;
+  margin-top: 30px;
+}
+
+/* line 246, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession div {
+  width: 80%;
+  margin: 40px auto;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+/* line 254, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeSession div::selection {
+  text-shadow: none;
+  color: #333;
+  background: #FFFFCF;
+}
+
+/* line 260, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 {
+  background: rgba(242, 242, 242, 0.7);
+  width: 100%;
+  min-height: 15%;
+  position: relative;
+  border-top: 1px solid #ecebebd6;
+}
+
+/* line 267, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeader2Title {
+  text-align: center;
+  padding: 50px 0px 10px 0px;
+}
+
+/* line 270, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeader2Title #aboutmeHeader2TitleDiv {
+  background: #98900d;
+  font-family: "Montserrat", serif;
+  padding: .8em 3em;
+  font-style: normal;
+  color: #fff;
+  font-size: 11px;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  position: relative;
+  z-index: 2;
+  border-left: 0.8px solid rgba(123, 117, 17, 0.69);
+  border-right: 0.8px solid rgba(123, 117, 17, 0.69);
+}
+
+/* line 284, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeader2Title #aboutmeHeader2TitleDiv::before {
+  content: "";
+  top: -.5em;
+  left: -1.57em;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  bottom: -.5em;
+  width: 2em;
+  height: 100%;
+  background-color: #918800;
+  pointer-events: none;
+}
+
+/* line 298, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeader2Title #aboutmeHeader2TitleDiv::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -.5em;
+  width: 2em;
+  height: 100%;
+  background-color: #918800;
+  pointer-events: none;
+  right: -1.57em;
+  z-index: -1;
+}
+
+/* line 312, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeader2Session2 {
+  margin-top: 40px;
+}
+
+/* line 315, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #aboutme .aboutmeHeader2 .aboutmeHeaderFooter {
+  padding: 40px 10px 50px 30px;
+}
+
+/* line 324, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .span::before {
+  content: '';
+  bottom: auto;
+  top: -6px;
+  border-bottom: 0.5em solid rgba(8, 11, 12, 0.2);
+  border-left: .5em solid transparent;
+  position: absolute;
+  left: 0px;
+}
+
+/* line 333, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .span::after {
+  content: '';
+  bottom: -6px;
+  border-top: 0.5em solid rgba(8, 11, 12, 0.2);
+  border-right: .5em solid transparent;
+  position: absolute;
+  right: 0px;
+}
+
+/* line 341, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .bottom20 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* line 347, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeHeader2FirstChild img {
+  width: 90px;
+  height: 90px;
+}
+
+/* line 353, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeHeader2SecondChild {
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* line 362, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeHeader2SecondChild h4 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  color: black;
+  font-family: "Montserrat", serif;
+  text-shadow: 0px 0px 1px #000102;
+}
+
+/* line 372, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 44px auto;
+}
+
+/* line 379, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li {
+  list-style: none;
+  height: 110px;
+  background: white;
+  width: 110px;
+  text-align: center;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  border-radius: 0px 20px 20px 20px;
+  padding: 10px;
+}
+
+/* line 389, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li span {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Montserrat", serif;
+  line-height: 1.45;
+}
+
+/* line 394, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li span img {
+  width: 60px;
+  height: 60px;
+}
+
+/* line 402, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  margin-left: 28px;
+  margin-top: -16px;
+  background: white;
+  box-shadow: 0 2px 0 0 #d7d8db, 0 0 0 0px #e3e4e8;
+}
+
+/* line 413, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li:last-child::after {
+  content: "";
+  width: 0px !important;
+  height: 0px !important;
+}
+
+/* line 418, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li:nth-child(3)::after {
+  margin-left: 35px;
+}
+
+/* line 421, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li:nth-child(4)::after {
+  margin-left: 30px;
+}
+
+/* line 424, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeUl li:nth-child(5)::after {
+  margin-left: 42px;
+}
+
+/* line 429, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .aboutmeHeader2ThirdChild {
+  font-size: 14px;
+  line-height: 1.45;
+  color: rgba(28, 38, 43, 0.5);
+  font-weight: 350;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 437, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #resume {
+  background: #1c9898;
+}
+
+/* line 440, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #portefolio {
+  background: red;
+}
+
+/* line 443, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #contact {
+  background: green;
+}
+
+/* line 446, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content #myproject {
+  background: yellow;
+}
+
+/* line 450, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .cup {
+  margin-bottom: 10px !important;
+}
+
+/* line 453, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .cup .row div {
+  color: #6c757d;
+}
+
+/* line 455, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .cup .row div b {
+  font-size: 12px;
+}
+
+/* line 460, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .cup .row .chan {
+  line-height: 95%;
+  font-weight: bold;
+}
+
+/* line 464, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .cup .row .cupHeader {
+  text-align: right;
+  padding: 0px;
+}
+
+/* line 471, /Applications/MAMP/htdocs/aln/scss/style.scss */
+.content .speciale {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1239px) {
+  /* line 479, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .aboutmeUl li::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* line 487, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    -moz-box-shadow: 0 3px 7px -2px #ccc;
+    -webkit-box-shadow: 0 3px 7px -2px #ccc;
+    box-shadow: 0 3px 7px -2px #ccc;
+  }
+  /* line 495, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar a {
+    float: left;
+  }
+  /* line 498, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .img-av {
+    padding-bottom: 5px !important;
+    padding-left: 5px !important;
+  }
+  /* line 502, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .view img {
+    width: 33px !important;
+    height: 33px !important;
+  }
+  /* line 506, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .slidebar-name {
+    display: none !important;
+  }
+  /* line 509, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal {
+    display: none;
+    padding-bottom: 0;
+  }
+  /* line 512, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal .slidebar-menu {
+    text-align: center;
+  }
+  /* line 514, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal .slidebar-menu a {
+    text-align: center;
+    float: none;
+    color: #bdb4b4;
+    transition: all 0.5s ease;
+  }
+  /* line 519, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal .slidebar-menu a .sliderbar-span {
+    display: inline-block;
+  }
+  /* line 523, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal .slidebar-menu:last-child {
+    border-bottom: none !important;
+  }
+  /* line 526, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .sidebar-menu-principal .slidebar-menu:hover {
+    color: #e0d5d5 !important;
+  }
+  /* line 531, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar .slidebar-bottom {
+    display: none !important;
+  }
+  /* line 535, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .cursor {
+    display: none;
+  }
+  /* line 539, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar-navig {
+    display: block !important;
+    position: fixed;
+    top: 13px;
+    right: 18px;
+    color: #a6aab1;
+    z-index: 10000;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  /* line 551, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .content {
+    margin-left: 0;
+  }
+  /* line 555, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .aboutmeUl li {
+    margin-right: 48px !important;
+  }
+  /* line 559, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  #name {
+    font-size: 2.1em !important;
+  }
+  /* line 562, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .home-left-text {
+    position: relative !important;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* line 570, /Applications/MAMP/htdocs/aln/scss/style.scss */
+  .sidebar a {
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
