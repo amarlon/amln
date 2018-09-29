@@ -52,6 +52,9 @@ $(document).ready(function(){
    
           $('.sidebar-menu-principal').slideToggle("slow"); 
      });
+     $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
 
         
 

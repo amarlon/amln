@@ -34,3 +34,28 @@
     text-shadow: none;
     background: #FFFFCF;
 }
+@mixin skills($size, $border, $length) {
+    width: $size;
+    border-top: 1px solid $border;
+    height: 5px;
+    background: white;
+    border-bottom: 1px solid $border;
+    &:after{
+        position: absolute;
+        content: "#{$length}";
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.46);
+        text-align: center;
+        padding:15px;
+        left: $size+0.7;
+        top: -22px;
+        border: 1px solid $border;
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+    }
+    
+}
