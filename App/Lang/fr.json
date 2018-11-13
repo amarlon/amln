@@ -1,0 +1,53 @@
+{
+    "leftMenu":{
+        "home":"ACCEUIL",
+        "about":"À-PROPOS",
+        "resume":"RESUME",
+        "portfolio":"PORTFOLIO",
+        "contact":"CONTACT",
+        "myproject":"MES PROJECTS"
+    },
+    "home":{
+        "greetingName": "Salut, Je suis ",
+        "description":"un Développeur de Logiciels et Electricien"
+    },
+    "aboutme":{
+        "title":"À-propos de moi",
+        "description": "Anaelmarlon est polyvalent, motivé, déterminé dans ses projets, dirigeant, curieux et passionné des nouvelles technologies. Le développement des logiciels est pour lui un style de vie qu'il aime de tout son cœur, avant de commencer sa carrière de consultant et de freelance à 2014. L'une des meilleures choses qu'Anaelmarlon possède, c'est une passion et une motivation pour développer ses compétences de codeur côté développement, Anaelmarlon est également passionnée par les nouvelles entreprises, l’entrepreneuriat et tout développement commercial lié à la technologie et à l’innovation. Anaelmarlon a également travaillé pendant 3 ans comme électricien de bateau.",
+        "title1": "CE QUE JE FAIS",
+        "section1" : {
+            "div1":{
+                "title":"DÉVELOPPEMENT FULL STACK WEB",
+                "description":"Je conçois et développe des applications basées sur les données pouvant fonctionner sur tous les navigateurs, du support pris en charge au navigateur de bureau."
+            },
+            "div2":{
+                "title":"DÉVELOPPEMENT MOBILE",
+                "description":"Je développe une application mobile sur mesure (iOS & Android) avec le framework xamarin C#."
+            },
+            "div3":{
+                "title":"DÉVELOPPEMENT DES APPLICATIONS DE BUREAU",
+                "description":"Je conçois et développe (applications pour l'inventaire, les ventes et la gestion du personnel) l'application pour ordinateur de bureau avec embarcadero studio et delphi en langage pascal."
+            },
+            "div4":{
+                "title":"DÉVELOPPEUR DE SOLUTION",
+                "description": "J'ai une excellente résolution de problèmes et une solide compréhension de la programmation orientée objet."
+            }
+        },
+        "title2":"COMMENT JE LE FAIS",  
+        "section2" :{
+            "div1": "DÉCOUVRIR",
+            "div2": "RECHERCHE",
+            "div3": "CONCEPTION",
+            "div4": "DÉVELOPPER",
+            "div5": "TESTER",
+            "div6": "SOUTIEN"
+        },
+        "title3": "FAN FUCT",
+        "section3" :{
+            "div1":"± 3 600 Heures de codage utilisées chaque année",
+            "div2": "± 1,440 heures consacrées à l'étude des nouvelles technologies chaque année",
+            "div3": "Anaelmarlon luzayamo Ngweni !!! Mon Dieu, c'est trop long, pouvez-vous juste m'appeler Marlon...",
+            "div4": "± 20.000 tasses de café consommées au cours des 5 dernières années"
+        }
+    }
+}

@@ -17,11 +17,57 @@ body{
     background: url(../img/src/bg.jpg) no-repeat center center fixed; 
     @include background-size(cover);
 }
-
+.loader-img{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    z-index: 100000000;
+    text-align: center;
+}
+.loader-img>div{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    top:100px;
+    
+}
+.img1{
+    height: 350px;
+    height: 350px;
+    
+}
+.spin{
+    width: 150px;
+    height: 32px;
+   
+}
+.Main{
+    display: none;
+}
 
 h4::selection, h1::selection, h2::selection, b::selection, div::selection, span::selection{
     @include selector();
 }
+.lang{
+    bottom: 33px !important;
+    position: absolute;
+    left: 12px;
+    display: list-item;
+    cursor:pointer;
+}
+.lang>img{
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%); 
+}
+.lang>img:hover{
+    filter: none;
+    -webkit-filter: none; 
+}
+
 .sidebar{
     margin: 0;
     padding: 0;
@@ -113,6 +159,21 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
 .forsinghover:hover{
     color:white !important;
 }
+#FormNew{
+    background: rgba(9, 32, 74, 0.63);
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(146, 137, 0);
+
+}
+.systemSubmit{
+    top: -22px;
+    background: rgb(51, 72, 109) !important;
+    border: 1px solid rgb(147, 138, 0);
+}
+.messageResponse, .specialReponse{
+    display: none;
+}
 
 //content 
 .content{
@@ -120,6 +181,7 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
     height: auto;
     overflow-wrap: break-word;
     overflow-y: auto;
+    overflow-x: hidden;
     margin-left: $width120;
     section{
         @extend .section;
@@ -652,20 +714,58 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
                                 @include skills(40%,rgba(77, 79, 129, 0.38), 40);
                             }
                             .resumeTubePascal{
-                                @include skills(75%,rgba(77, 79, 129, 0.38), 75);
+                                @include skills(77%,rgba(77, 79, 129, 0.38), 77);
                             }
                             .resumeTubeJS{
                                 @include skills(70%,rgba(77, 79, 129, 0.38), 70);
                             }
                             .resumeTubeJSON{
-                                @include skills(30%,rgba(77, 79, 129, 0.38), 30);
+                                @include skills(68%,rgba(77, 79, 129, 0.38), 68);
                             }
                             .resumeTubeAPI{
+                                @include skills(65%,rgba(77, 79, 129, 0.38), 65);
+                            }
+                            .resumeTubeReact{
+                                @include skills(50%,rgba(77, 79, 129, 0.38), 50);
+                            }
+                            .resumeTubeJava{
+                                @include skills(20%,rgba(77, 79, 129, 0.38), 20);
+                            }
+                            .resumeTubeCsharp{
                                 @include skills(25%,rgba(77, 79, 129, 0.38), 25);
                             }
 
                         }
                         
+                    }
+                    .resumeOthers{
+                        width: 100%;
+                        height: auto;
+                        background: white;
+                        border-radius: 10px;
+                        box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+                        margin-bottom: 10px;
+                        padding-bottom: 20px;
+                        padding-right: 15px;
+                        text-align: center;
+                        img{
+                            margin-top: -40px;
+                            border-radius: 50%;
+                            padding: 4px;
+                            background: white;
+                            border: 1px solid #d4cece;
+                        }
+                        div{
+                            .resumeOthersDetails{
+                                font-family: "Montserrat", serif;
+                                color: rgba(28, 38, 43, 0.35);
+                                font-weight: 400;
+                            }
+                            .resumeOthersBody{
+                                font-size: 14px;
+                                line-height: 1.5;
+                            }
+                        }
                     }
                 }
             }
@@ -689,7 +789,176 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
         background: red;
     }
     #contact{
-        background: green;
+        background-image: url('../img/src/map.png');
+        #div{
+            width: 100%;
+            min-height: 100vh;
+            background: rgba(25, 58, 95, 0.56);
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            .contactHeader{
+                text-align: center;
+                color: wheat;
+                font-family: cursive;
+                font-weight: 900;
+                padding-top: 40px;
+            }
+
+            .contactMainHeader{
+                text-align:center;
+                margin-bottom: 60px;
+                .contactMainHeaderSpan{
+                    background: #98900d;
+                    font-family: "Montserrat", serif;
+                    padding: .8em 3em;
+                    font-style: normal;
+                    color: #fff;
+                    font-size: 11px;
+                    font-weight: normal;
+                    letter-spacing: 0.2em;
+                    position: relative;
+                    z-index: 2;
+                    border-left: .8px solid rgba(123, 117, 17, 0.69);
+                    border-right: .8px solid rgba(123, 117, 17, 0.69);
+                    width: fit-content;
+                    &:before{
+                        content: "";
+                        top: -.5em;
+                        left: -1.57em;
+                        z-index: -1;
+                        display: block;
+                        position: absolute;
+                        bottom: -.5em;
+                        width: 2em;
+                        height: 100%;
+                        background-color: $vert;
+                        pointer-events: none;
+                       
+                    }
+                    &:after{
+                      content: " ";
+                      display: block;
+                      position: absolute;
+                      bottom: -.5em;
+                      width: 2em;
+                      height: 100%;
+                      background-color: $vert;
+                      pointer-events: none;
+                      right: -1.57em;
+                      z-index: -1;
+                     
+                    }
+                    .span2{
+                       position: relative;
+                       margin: 0 , auto;
+                    }
+                }
+             
+            }
+            .ContactPortefolio{
+                text-align: center;
+                a{
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    line-height: 3;
+                    cursor: pointer;
+                }
+                #facebook{
+                    &:hover{
+                        background: rgb(26, 112, 185);
+                    }
+                }
+                #github{
+                    &:hover{
+                        background: black;
+                    }
+                }
+                #google{
+                    &:hover{
+                        background: rgb(233, 10, 10);
+                    }
+                }
+                #linkedin{
+                    &:hover{
+                        background: rgb(17, 78, 121);
+                    }
+                }
+                #skype{
+                    &:hover{
+                        background: rgb(20, 135, 216);
+                    }
+                }
+                #codepen{
+                    &:hover{
+                        background: rgb(53, 41, 36);
+
+                    }
+                }
+                #vk{
+                    &:hover{
+                        background: rgb(39, 90, 167);
+                    
+                    }
+                }
+                #avtarSocial{
+                    text-align: center;
+                    width: 100%;
+                    position: relative;
+                    display: none;
+                    z-index: 5;
+                    .div{
+                        position: absolute;
+                        background: white;
+                        width: 140px;;
+                        min-height: 200px;
+                        top: 15px;
+                        left: 50%;
+                        margin-left: -70px;
+                        border-radius: 5px;
+                        padding-bottom: 10px;
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            width: 0; 
+                            height: 0; 
+                            border-left: 14px solid transparent;
+                            border-right: 14px solid transparent;
+                            border-bottom: 14px solid black;
+                            top: -14px;
+                            right: 5px;
+                        }
+                        h5{
+                            font-weight: 300;
+                            font-size: 14px;
+                            margin-top: 10px;
+                            font-family: monospace;
+                        }
+                        
+                    }
+                }
+            }
+            .contactTel{
+                .row{
+                    .cHeader{
+                        center{
+                             h6{
+                                color: #e0e0e0;
+                                font-weight: 300;
+                                font-size: 15px;
+                                margin-top: 10px;
+                                font-family: unset;
+                             }
+                        }
+                    }
+                }
+            }
+            
+
+        }
     }
     #myproject{
         background: yellow;
@@ -731,6 +1000,14 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
 }
 //change the width 700
 @media screen and (max-width: 700px){
+    .lang{
+        float: right !important;
+        position: absolute!important;
+        right: 53px!important;
+        top: 17px!important;
+        display: inline;
+        left:  auto;
+    }
     //sidebar
     .sidebar{
         width: $width100;
@@ -774,6 +1051,7 @@ h4::selection, h1::selection, h2::selection, b::selection, div::selection, span:
                   &:hover{
                           color: #e0d5d5 !important;
                   }
+
             }
          }
         .slidebar-bottom{

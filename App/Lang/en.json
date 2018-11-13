@@ -1,0 +1,53 @@
+{
+    "leftMenu":{
+        "home":"HOME",
+        "about":"ABOUT ME",
+        "resume":"RESUME",
+        "portfolio":"PORTFOLIO",
+        "contact":"CONTACT",
+        "myproject":"MY PROJECTS"
+    },
+    "home":{
+        "greetingName": "Hi, I am",
+        "description":"I am a software developer and Electrician"
+    },
+    "aboutme":{
+        "title":"About me",
+        "description": "Anaelmarlon is versatile, motivated and determined in his projects, leader, curious, and passionate about new technologies. Software development is for him a lifestyle that he love with all my heart, prior to starting his freelancing and consulting career at 2014. One of best thing that Anaelmarlon have, it is a passion and motivation to develop his coding skills, Besides his pure software development side, Anaelmarlon also has a huge passion for start-up, entrepreneurship and any business developments related to tech and an invetion. Anaelmarlon also worked for 3 years as Electrician of boat.",
+        "title1": "WHAT I DO",
+        "section1" : {
+            "div1":{
+                "title":"FULL STACK WEB DEVELOPMENT",
+                "description":"I design and develop data driven application that can run on any browser from mobile supported to desktop browser."
+            },
+            "div2":{
+                "title":"MOBILE DEVELOPMENT",
+                "description":"I develop bespoke mobile (iOS & Android) app with xamarin framework C#."
+            },
+            "div3":{
+                "title":"DESKTOP DEVELOPMENT",
+                "description":"I design and develop ( applications for inventory, sales and personnel management ) the App for desktop with embarcadero studio and delphi in pascal language."
+            },
+            "div4":{
+                "title":"SOLUTION DEVELOPER",
+                "description": "I have an excellent problem solver and solid understanding of Object Oriented Programming."
+            }
+        },
+        "title2":"HOW I DO IT",  
+        "section2" :{
+            "div1": "DISCOVER",
+            "div2": "RESEARCH",
+            "div3": "DESIGN",
+            "div4": "DEVELOP",
+            "div5": "TEST",
+            "div6": "SUPPORT"
+        },
+        "title3": "FAN FUCT",
+        "section3" :{
+            "div1":"±  3.600 Hours of spent coding in each Year",
+            "div2": "± 1.440 Hours spent studying new technologies each Year",
+            "div3": "Anaelmarlon luzayamo Ngweni !!! How my God, it's too long, can you just call me Marlon",
+            "div4": "± 20.000 Cups Of Coffee Consumed in the past 5 Years"
+        }
+    }
+}
