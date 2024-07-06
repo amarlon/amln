@@ -1,5 +1,5 @@
 //nav language
-var userLang = navigator.language || navigator.userLanguage; 
+let userLang = navigator.language || navigator.userLanguage; 
 //cookie if existe
 let cookieEnabled = navigator.cookieEnabled;
 let superLanguage='';
